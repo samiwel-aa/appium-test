@@ -8,17 +8,25 @@
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
+    "@wdio/appium-service": "latest",
+    "@wdio/cli": "latest",
+    "@wdio/jasmine-framework": "latest",
+    "@wdio/local-runner": "latest",
+    "@wdio/mocha-framework": "latest",
+    "@wdio/spec-reporter": "latest",
     "appium": "latest",
     "appium-chromedriver": "latest",
     "appium-doctor": "latest",
-    "jest": "latest",
+    "chai": "latest",
+    "chromedriver": "latest",
     "prettier": "latest",
-    "wd": "latest"
+    "wdio-chromedriver-service": "latest",
+    "webdriverio": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "wdio",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
