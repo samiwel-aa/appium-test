@@ -16,7 +16,8 @@ exports.config = {
       platformVersion: "10",
       deviceName: "Android Emulator",
       automationName: "UiAutomator2",
-      browserName: "Chrome"
+      browserName: "Chrome",
+      avd: "Pixel_2_API_29"
     },
     {
       platformName: "iOS",
