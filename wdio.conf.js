@@ -16,8 +16,14 @@ exports.config = {
       platformVersion: "10",
       deviceName: "Android Emulator",
       automationName: "UiAutomator2",
-      newCommandTimeout: 0,
       browserName: "Chrome"
+    },
+    {
+      platformName: "iOS",
+      platformVersion: "13.1",
+      deviceName: "iPhone Simulator",
+      automationName: "XCUITest",
+      browserName: "Safari"
     }
   ],
   specs: ["test/spec/**"],

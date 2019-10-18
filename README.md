@@ -1,5 +1,21 @@
 ## Setup
 
+### iOS
+
+#### Prerequisites
+
+1. Install Carthage
+
+    ```
+    brew install carthage
+    ```
+   
+ 1. Ensure that all other dependencies are installed
+ 
+    ```
+    appium-doctor --ios
+    ```
+
 ### Android
 
 #### Prerequisites
