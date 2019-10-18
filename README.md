@@ -1,5 +1,16 @@
 ## Setup
 
+### Android
+
+#### Prerequisites
+
+1. Install a Java runtime environment.
+
+1. Install Android SDK and create an Android Virtual Device (emulator).
+   This can be done via the Android Device Manager (adm) tool or via the GUI provided by Android Studio.
+   
+#### Installation
+   
 1. `yarn install`
 
 1. `export ANDROID_HOME=~/Library/Android/sdk`
@@ -9,6 +20,8 @@
 1. `export PATH=${JAVA_HOME}/bin:$PATH`
 
 1. `appium-doctor --android` to verify dependencies are set up correctly.
+
+#### Running the tests
 
 1. Run the Android emulator.
 
